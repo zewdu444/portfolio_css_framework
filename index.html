@@ -29,7 +29,6 @@
           <nav class="nav justify-content-between">
             <a class="nav-link" href="#">My Logo</a>
             <ul class="nav">
-              <!-- <button  class="mobilemenu nav-item"><i class="fa-solid fa-bars fa-2x"></i></button> -->
               <li class="nav-item">
                 <a class="nav-link" href="#">Portoflio</a>
               </li>
@@ -70,6 +69,7 @@
           </div>
         </section>
       </div>
+
       <!-- project showcase -->
       <!-- Tonic card one -->
       <section class="card p-4">
@@ -101,18 +101,18 @@
 
       <!-- about me -->
 
-      <section class="aboutmyself">
-        <section class="aboutcol1">
-          <h2 class="abouttitle">About Myself</h2>
+      <section class="container row h-75 align-items-center">
+        <section class="col-5 offset-1">
+          <h2>About Myself</h2>
           <p class="aboutdetail">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-          <h3 class="connect">LET’S CONNECT</h3>
+          <h3 class="fs-6 text-primary">LET’S CONNECT</h3>
           <section class="abouticonsection">
-            <ul class="buttongroup">
+            <ul class="d-flex flex-row gap-4 list-unstyled">
               <li>
                 <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
               </li>
@@ -130,39 +130,52 @@
               </li>
             </ul>
           </section>
-          <button class="aboutresumebutton">Get my resume</button>
+          <button class="btn btn-primary">Get my resume</button>
         </section>
-        <section class="aboutcol2">
-          <ul class="techstack">
+        <section class="col-6">
+          <ul class="list-unstyled">
             <li>
-              <p class="aboutlanguage">Languages</p>
-              <i class="langicon fa-solid fa-chevron-down"></i>
-              <ul class="techstacklang">
-                <li class="langdetail">
+              <div class="d-flex justify-content-between align-items-baseline">
+                <p class="fw-bold text-secondary">Languages</p>
+                <i class="langicon fa-solid fa-chevron-down"></i>
+              </div>
+              <ul
+                class="d-flex gap-4 list-unstyled"
+                style="height: 60px; margin-bottom: 32px"
+              >
+                <li class="h-100">
                   <img
-                    class="techimage"
+                    class="d-block h-100 img-fluid"
                     src="./images/js.png"
                     alt="javaScript"
                   />
                   <p class="langgap">JavaSrcipt</p>
                 </li>
-                <li class="langdetail">
-                  <img class="techimage" src="./images/html.png" alt="HTML" />
+                <li class="h-100">
+                  <img
+                    class="d-block h-100 img-fluid"
+                    src="./images/html.png"
+                    alt="HTML"
+                  />
                   <p class="langgap">HTML</p>
                 </li>
-                <li class="langdetail">
-                  <img class="techimage" src="./images/css.jpg" alt="CSS" />
+                <li class="h-100">
+                  <img
+                    class="d-block h-100 img-fluid"
+                    src="./images/css.jpg"
+                    alt="CSS"
+                  />
                   <p class="langgap">CSS</p>
                 </li>
               </ul>
             </li>
-            <li>
-              <p class="aboutlanguage">Frameworks</p>
+            <li class="d-flex justify-content-between align-items-baseline">
+              <p class="fw-bold text-secondary">Frameworks</p>
               <i class="frameicon fa-solid fa-chevron-right"></i>
             </li>
             <hr />
-            <li>
-              <p class="aboutlanguage">Skills</p>
+            <li class="d-flex justify-content-between align-items-baseline">
+              <p class="fw-bold text-secondary">Skills</p>
               <i class="skillicon fa-solid fa-chevron-right"></i>
             </li>
             <hr />
