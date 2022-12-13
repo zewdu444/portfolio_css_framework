@@ -596,7 +596,7 @@ footer {
   }
 
   .headline {
-    background-image: url("images/desktop_header_one.png");
+    background-image: url(".images/");
     background-repeat: no-repeat;
     height: 916px;
     background-color: white;
